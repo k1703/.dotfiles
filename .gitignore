@@ -1,0 +1,13 @@
+# Ignore bundles
+link/.vim/bundle/*
+
+# Ignore everything in SSH dir except config-template
+copy/.ssh/*
+!copy/.ssh/config-template
+
+# Ignore tmux plugins
+link/.tmux/*
+!link/.tmux/settings
+
+# Ignore caches
+caches/*

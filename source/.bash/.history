@@ -1,0 +1,3 @@
+# History settings
+export HISTCONTROL=ignoredups
+shopt -s histappend

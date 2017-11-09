@@ -1,0 +1,31 @@
+# Aliases
+
+# tmux aliases
+alias tls='tmux ls'	# backslash to temporarily disable alias
+alias ta='tmux a -t'
+
+# ls aliases
+alias ls='ls --color=auto'
+alias ll='ls -alF'
+alias l='ls -CF'
+
+# Terminal appearance control
+alias c='clear'
+
+# grep aliases
+alias grep='grep --color=auto'
+alias egrep='egrep --color=auto'
+alias fgrep='fgrep --color=auto'
+alias hgrep='history | grep'
+
+# mkdir aliases
+alias mkdir='mkdir -pv'
+
+# vi aliases
+alias vi=vim
+
+# Safety
+alias rm='rm --preserve-root'
+alias chown='chown --preserve-root'
+alias chmod='chmod --preserve-root'
+alias chgrp='chgrp --preserve-root'

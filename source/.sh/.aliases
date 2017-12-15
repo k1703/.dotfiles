@@ -29,3 +29,7 @@ alias rm='rm --preserve-root'
 alias chown='chown --preserve-root'
 alias chmod='chmod --preserve-root'
 alias chgrp='chgrp --preserve-root'
+
+# Pyenv aliases
+alias pa='pyenv activate'
+alias pd='pyenv deactivate'

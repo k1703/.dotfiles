@@ -20,6 +20,7 @@ set noshowmode " Don't show the current mode (airline.vim takes care of us)
 set laststatus=2 " Always show status line
 set tabstop=4 " Set tab size
 set expandtab " Use spaces instead of tabs
+syntax on
 " Indentation
 set autoindent " Copy indent from last line when starting new line.
 set shiftwidth=4 " The # of spaces for indenting.

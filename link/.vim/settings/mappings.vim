@@ -19,6 +19,10 @@ nnoremap <leader>r :source $MYVIMRC<cr>
 " Strip white space
 noremap <leader>ss :call StripExtraWhiteSpace()<CR>
 
+" Read pdf in vim
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> -
+:command! -complete=file -nargs=1 Rpdf :r !pdftotext -nopgbrk <q-args> - |fmt -csw78
+
 " Mappings for vim-tmux-navigator
 let g:tmux_navigator_no_mappings = 1
 nnoremap <silent> <C-H> :TmuxNavigateLeft<cr>

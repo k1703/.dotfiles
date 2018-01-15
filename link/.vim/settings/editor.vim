@@ -78,7 +78,7 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Airline settings
-let g:airline_extensions = []
+let g:airline_extensions = ['branch', 'tabline']
 
 " Vim-tmux-navigator settings
 let g:tmux_navigator_save_on_switch = 2 " Write all buffers before navigating from Vim to tmux pane

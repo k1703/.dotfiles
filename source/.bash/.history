@@ -1,3 +1,6 @@
 # History settings
-export HISTCONTROL=ignoredups
+export HISTCONTROL=ignoredups:erasedups
+export HISTFILESIZE=
+export HISTSIZE=
+export HISTTIMEFORMAT="[%F %T] "
 shopt -s histappend

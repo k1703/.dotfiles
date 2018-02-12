@@ -1,2 +1,18 @@
-set editing-mode vi
+# Terminal input settings
 
+# Vi editing mode
+set show-mode-in-prompt on
+set editing-mode vi
+set keymap vi-command
+
+# Search command history based on partial command
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Coloured completion
+set colored-completion-prefix on
+set colored-stats on
+
+# Case insensitive completion
+set completion-ignore-case on
+set completion-map-case on

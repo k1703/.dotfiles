@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # Installation script for VIM
 
 # Setup vundle and install plugins from .vimrc
